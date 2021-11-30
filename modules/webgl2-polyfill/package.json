@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "kepler-outdated-luma.gl-constants": "7.3.2"
+    "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz"
   }
 }

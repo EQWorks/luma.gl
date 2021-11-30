@@ -31,11 +31,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "kepler-outdated-luma.gl-constants": "7.3.2",
-    "kepler-outdated-luma.gl-shadertools": "7.3.2",
-    "kepler-outdated-luma.gl-webgl": "7.3.2",
-    "kepler-outdated-luma.gl-webgl-state-tracker": "7.3.2",
-    "kepler-outdated-luma.gl-webgl2-polyfill": "7.3.2",
+    "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz",
+    "kepler-outdated-luma.gl-shadertools": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/shadertools/dist.tgz",
+    "kepler-outdated-luma.gl-webgl": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/webgl/dist.tgz",
+    "kepler-outdated-luma.gl-webgl-state-tracker": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/webgl-state-tracker/dist.tgz",
+    "kepler-outdated-luma.gl-webgl2-polyfill": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/webgl2-polyfill/dist.tgz",
     "math.gl": "^3.0.0",
     "probe.gl": "^3.1.1",
     "seer": "^0.2.4"
