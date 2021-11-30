@@ -15,8 +15,8 @@ const shadertools = require('kepler-outdated-luma.gl-shadertools');
 
 const mathGL = require('math.gl');
 
-_global.luma = Object.assign({}, _global.luma, lumaGL, {filters}, shadertools);
+_global.keplerLuma = Object.assign({}, _global.keplerLuma, lumaGL, { filters }, shadertools);
 
 _global.mathgl = mathGL;
 
-module.exports = _global.luma;
+module.exports = _global.keplerLuma;
