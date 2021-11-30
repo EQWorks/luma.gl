@@ -28,6 +28,13 @@
   ],
   "scripts": {},
   "dependencies": {
+  },
+  "devDependencies": {
+    "kepler-outdated-luma.gl-addons": "file:../addons",
+    "kepler-outdated-luma.gl-core": "file:../core",
+    "kepler-outdated-luma.gl-constants": "file:../constants"
+  },
+  "peerDependencies": {
     "kepler-outdated-luma.gl-addons": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/addons/dist.tgz",
     "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz",
     "kepler-outdated-luma.gl-core": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/core/dist.tgz"

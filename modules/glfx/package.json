@@ -24,7 +24,7 @@
     "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
   },
   "peerDependencies": {
-    "kepler-outdated-luma.gl-core": "^7.1.0",
-    "kepler-outdated-luma.gl-effects": "^7.1.0"
+    "kepler-outdated-luma.gl-core": "7.3.2",
+    "kepler-outdated-luma.gl-effects": "7.3.2"
   }
 }

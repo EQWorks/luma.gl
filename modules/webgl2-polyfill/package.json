@@ -25,7 +25,12 @@
     "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0",
+    "@babel/runtime": "^7.0.0"
+  },
+  "devDependencies": {
+    "kepler-outdated-luma.gl-constants": "file:../constants"
+  },
+  "peerDependencies": {
     "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz"
   }
 }

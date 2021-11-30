@@ -30,12 +30,15 @@
     "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
   },
   "dependencies": {
-    "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz",
     "glsl-transpiler": "^1.8.5",
     "math.gl": "^3.0.0",
     "webgl-debug": "^2.0.1"
   },
+  "devDependencies": {
+    "kepler-outdated-luma.gl-constants": "file:../constants"
+  },
   "peerDependencies": {
-    "kepler-outdated-luma.gl-core": "^7.1.0"
+    "kepler-outdated-luma.gl-core": "7.3.2",
+    "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz"
   }
 }

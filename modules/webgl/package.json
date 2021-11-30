@@ -35,9 +35,16 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
+    "probe.gl": "^3.1.1"
+  },
+  "devDependencies": {
+    "kepler-outdated-luma.gl-constants": "file:../constants",
+    "kepler-outdated-luma.gl-webgl-state-tracker": "file:../webgl-state-tracker",
+    "kepler-outdated-luma.gl-webgl2-polyfill": "file:../webgl2-polyfill"
+  },
+  "peerDependencies": {
     "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz",
     "kepler-outdated-luma.gl-webgl-state-tracker": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/webgl-state-tracker/dist.tgz",
-    "kepler-outdated-luma.gl-webgl2-polyfill": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/webgl2-polyfill/dist.tgz",
-    "probe.gl": "^3.1.1"
+    "kepler-outdated-luma.gl-webgl2-polyfill": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/webgl2-polyfill/dist.tgz"
   }
 }
