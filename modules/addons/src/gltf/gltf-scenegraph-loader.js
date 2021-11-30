@@ -1,5 +1,5 @@
 /* global window */
-import {assert} from '@luma.gl/core';
+import { assert } from 'kepler-outdated-luma.gl-core';
 import {GLTFLoader} from '@loaders.gl/gltf';
 import createGLTFObjects from './create-gltf-objects';
 

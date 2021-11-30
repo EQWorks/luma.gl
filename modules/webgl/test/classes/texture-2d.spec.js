@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {Texture2D} from '@luma.gl/webgl';
+import { Texture2D } from 'kepler-outdated-luma.gl-webgl';
 
 import {fixture} from 'test/setup';
 

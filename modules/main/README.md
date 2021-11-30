@@ -7,4 +7,4 @@
 
 ## Overview
 
-The `luma.gl` module is deprecated. Use `@luma.gl/core` instead.
+The `luma.gl` module is deprecated. Use `kepler-outdated-luma.gl-core` instead.

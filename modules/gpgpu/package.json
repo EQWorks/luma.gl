@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/gpgpu",
+  "name": "kepler-outdated-luma.gl-gpgpu",
   "version": "7.3.2",
   "description": "Set of gpgpu utility methods based on luma.gl",
   "license": "MIT",
@@ -30,9 +30,9 @@
     "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
   },
   "dependencies": {
-    "@luma.gl/constants": "7.3.2"
+    "kepler-outdated-luma.gl-constants": "7.3.2"
   },
   "peerDependencies": {
-    "@luma.gl/core": "^7.1.0"
+    "kepler-outdated-luma.gl-core": "^7.1.0"
   }
 }

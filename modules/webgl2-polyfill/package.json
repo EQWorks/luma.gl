@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/webgl2-polyfill",
+  "name": "kepler-outdated-luma.gl-webgl2-polyfill",
   "version": "7.3.2",
   "description": "WebGL2 API Polyfills for WebGL1 WebGLRenderingContext",
   "license": "MIT",
@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@luma.gl/constants": "7.3.2"
+    "kepler-outdated-luma.gl-constants": "7.3.2"
   }
 }

@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import assert from './assert';
 
 import {getParameterPolyfill} from './polyfills/get-parameter-polyfill';

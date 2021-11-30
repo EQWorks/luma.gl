@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import test from 'tape-catch';
-import {GroupNode, ScenegraphNode} from '@luma.gl/core';
+import { GroupNode, ScenegraphNode } from 'kepler-outdated-luma.gl-core';
 import {Matrix4} from 'math.gl';
 
 test('GroupNode#construction', t => {

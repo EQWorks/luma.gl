@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 import Resource from './resource';
 import Texture2D from './texture-2d';

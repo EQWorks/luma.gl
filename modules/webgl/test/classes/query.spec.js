@@ -1,8 +1,8 @@
 /* eslint-disable max-len, max-statements */
 import test from 'tape-catch';
-import {Query} from '@luma.gl/webgl';
+import { Query } from 'kepler-outdated-luma.gl-webgl';
 import util from 'util';
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {fixture} from 'test/setup';
 
 function pollQuery(query, t) {

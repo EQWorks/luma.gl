@@ -1,5 +1,5 @@
-import {tiltShift} from '@luma.gl/effects';
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { tiltShift } from 'kepler-outdated-luma.gl-effects';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 test('tiltShift#build/uniform', t => {

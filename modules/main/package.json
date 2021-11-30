@@ -1,5 +1,5 @@
 {
-  "name": "luma.gl",
+  "name": "kepler-outdated-luma.gl",
   "version": "7.3.2",
   "description": "WebGL2 Components for High Performance Rendering and Computation",
   "license": "MIT",
@@ -28,8 +28,8 @@
   ],
   "scripts": {},
   "dependencies": {
-    "@luma.gl/addons": "7.3.2",
-    "@luma.gl/constants": "7.3.2",
-    "@luma.gl/core": "7.3.2"
+    "kepler-outdated-luma.gl-addons": "7.3.2",
+    "kepler-outdated-luma.gl-constants": "7.3.2",
+    "kepler-outdated-luma.gl-core": "7.3.2"
   }
 }

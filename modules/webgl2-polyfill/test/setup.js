@@ -1,6 +1,6 @@
 // Avoid generating a lot of big context divs
-import '@luma.gl/debug';
-import {setGLContextDefaults, createGLContext, makeDebugContext} from '@luma.gl/core';
+import 'kepler-outdated-luma.gl-debug';
+import { setGLContextDefaults, createGLContext, makeDebugContext } from 'kepler-outdated-luma.gl-core';
 
 setGLContextDefaults({
   width: 1,

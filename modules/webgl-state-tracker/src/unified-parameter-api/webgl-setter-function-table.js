@@ -5,7 +5,7 @@
 //   separate arguments. Thus, a `getParameter` call will always return all the separate values
 //   in an array, in a form that can be accepted by the setter.
 
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 // HELPERS
 

@@ -1,5 +1,5 @@
-// import {_ClearMaskPass as ClearMaskPass} from '@luma.gl/core';
-import {default as ClearMaskPass} from '@luma.gl/core/multipass/clear-mask-pass';
+// import {_ClearMaskPass as ClearMaskPass} from 'kepler-outdated-luma.gl-core';
+import { default as ClearMaskPass } from 'kepler-outdated-luma.gl-core/multipass/clear-mask-pass';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

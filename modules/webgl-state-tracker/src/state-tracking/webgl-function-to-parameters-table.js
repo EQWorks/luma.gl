@@ -8,7 +8,7 @@
 // It also enables checking values against cache and avoid unnecessary WebGL
 // set/get operations.
 
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 export default {
   // GENERIC SETTERS

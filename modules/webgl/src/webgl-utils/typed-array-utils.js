@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 const ERR_TYPE_DEDUCTION = 'Failed to deduce GL constant from typed array';
 

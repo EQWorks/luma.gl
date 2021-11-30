@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {isWebGL2} from '../webgl-utils';
 
 // const S3TC = 'WEBGL_compressed_texture_s3tc';

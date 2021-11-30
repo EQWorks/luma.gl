@@ -4,7 +4,7 @@ import {
   hasFeatures,
   getFeatures,
   FEATURES
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 import test from 'tape-catch';
 import {makeSpy} from '@probe.gl/test-utils';
 

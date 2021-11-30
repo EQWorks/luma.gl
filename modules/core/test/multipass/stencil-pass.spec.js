@@ -1,5 +1,5 @@
-import {Model} from '@luma.gl/core';
-import {default as StencilPass} from '@luma.gl/core/multipass/stencil-pass';
+import { Model } from 'kepler-outdated-luma.gl-core';
+import { default as StencilPass } from 'kepler-outdated-luma.gl-core/multipass/stencil-pass';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

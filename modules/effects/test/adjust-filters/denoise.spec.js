@@ -1,5 +1,5 @@
-import {denoise} from '@luma.gl/effects';
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { denoise } from 'kepler-outdated-luma.gl-effects';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 test('denoise#build/uniform', t => {

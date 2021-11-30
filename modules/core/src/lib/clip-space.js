@@ -1,5 +1,5 @@
 // ClipSpace
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import Model from '../lib/model';
 import Geometry from '../geometry/geometry';
 

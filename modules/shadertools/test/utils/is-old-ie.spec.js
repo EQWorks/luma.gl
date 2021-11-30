@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import isOldIE from '@luma.gl/shadertools/utils/is-old-ie';
+import isOldIE from 'kepler-outdated-luma.gl-shadertools/utils/is-old-ie';
 import test from 'tape-catch';
 
 test('isOldIE', t => {

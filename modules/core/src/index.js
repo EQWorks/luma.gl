@@ -25,7 +25,7 @@ export {
   // DEPRECATED
   setGLContextDefaults as setContextDefaults,
   getContextDebugInfo as glGetDebugInfo
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 
 export {
   trackContextState,
@@ -36,7 +36,7 @@ export {
   setParameters,
   withParameters,
   getModifiedParameters
-} from '@luma.gl/webgl-state-tracker';
+} from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 // WEBGL1 OBJECTS/FUNCTIONS
 export {
@@ -58,7 +58,7 @@ export {
   copyToImage,
   copyToTexture,
   blit
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 
 export {
   // WebGL2 classes & Extensions
@@ -74,7 +74,7 @@ export {
   // experimental WebGL exports
   Accessor as _Accessor,
   clearBuffer as _clearBuffer
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 
 // CORE - WEBGL INDEPENDENT
 export {default as Geometry} from './geometry/geometry';
@@ -163,7 +163,7 @@ export {
   typeToChannelSuffix,
   typeToChannelCount,
   convertToVec4
-} from '@luma.gl/shadertools';
+} from 'kepler-outdated-luma.gl-shadertools';
 
 // UTILS: undocumented API for other luma.gl modules
-export {log, assert, uid, self, window, global, document} from '@luma.gl/webgl';
+export { log, assert, uid, self, window, global, document } from 'kepler-outdated-luma.gl-webgl';

@@ -1,7 +1,7 @@
-import GL from '@luma.gl/constants';
-import {TransformFeedback, Buffer} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { TransformFeedback, Buffer } from 'kepler-outdated-luma.gl-webgl';
 // TODO - tests shouldn't depend on higher level module?
-import {Model} from '@luma.gl/core';
+import { Model } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 
 import {fixture} from 'test/setup';

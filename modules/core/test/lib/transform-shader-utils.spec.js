@@ -1,5 +1,5 @@
-import {updateForTextures} from '@luma.gl/core/lib/transform/transform-shader-utils';
-import {Texture2D} from '@luma.gl/core';
+import { updateForTextures } from 'kepler-outdated-luma.gl-core/lib/transform/transform-shader-utils';
+import { Texture2D } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

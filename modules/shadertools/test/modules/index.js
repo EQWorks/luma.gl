@@ -4,9 +4,9 @@ import './lights/lights.spec';
 import './picking/picking.spec';
 import './phong-lighting/phong-lighting.spec';
 
-import {registerShaderModules, setDefaultShaderModules} from '@luma.gl/shadertools';
-import shaderModules from '@luma.gl/shadertools/modules';
-import ShaderModule from '@luma.gl/shadertools/lib/shader-module';
+import { registerShaderModules, setDefaultShaderModules } from 'kepler-outdated-luma.gl-shadertools';
+import shaderModules from 'kepler-outdated-luma.gl-shadertools/modules';
+import ShaderModule from 'kepler-outdated-luma.gl-shadertools/lib/shader-module';
 
 import test from 'tape-catch';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/core",
+  "name": "kepler-outdated-luma.gl-core",
   "version": "7.3.2",
   "description": "WebGL2 Components for High Performance Rendering and Computation",
   "license": "MIT",
@@ -31,11 +31,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@luma.gl/constants": "7.3.2",
-    "@luma.gl/shadertools": "7.3.2",
-    "@luma.gl/webgl": "7.3.2",
-    "@luma.gl/webgl-state-tracker": "7.3.2",
-    "@luma.gl/webgl2-polyfill": "7.3.2",
+    "kepler-outdated-luma.gl-constants": "7.3.2",
+    "kepler-outdated-luma.gl-shadertools": "7.3.2",
+    "kepler-outdated-luma.gl-webgl": "7.3.2",
+    "kepler-outdated-luma.gl-webgl-state-tracker": "7.3.2",
+    "kepler-outdated-luma.gl-webgl2-polyfill": "7.3.2",
     "math.gl": "^3.0.0",
     "probe.gl": "^3.1.1",
     "seer": "^0.2.4"

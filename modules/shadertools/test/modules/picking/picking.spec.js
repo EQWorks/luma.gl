@@ -18,8 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import {Buffer, Transform} from '@luma.gl/core';
-import {picking} from '@luma.gl/shadertools';
+import { Buffer, Transform } from 'kepler-outdated-luma.gl-core';
+import { picking } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

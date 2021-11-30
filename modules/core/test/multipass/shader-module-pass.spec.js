@@ -1,7 +1,7 @@
-// import {Model} from '@luma.gl/core';
-import {_ShaderModulePass as ShaderModulePass, Framebuffer} from '@luma.gl/core';
-import {edgeWork} from '@luma.gl/effects';
-// import {normalizeShaderModule} from '@luma.gl/shadertools';
+// import {Model} from 'kepler-outdated-luma.gl-core';
+import { _ShaderModulePass as ShaderModulePass, Framebuffer } from 'kepler-outdated-luma.gl-core';
+import { edgeWork } from 'kepler-outdated-luma.gl-effects';
+// import {normalizeShaderModule} from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

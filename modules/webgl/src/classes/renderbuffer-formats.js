@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 // Define local extension strings to optimize minification
 // const SRGB = 'EXT_sRGB';

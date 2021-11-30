@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {lights} from '@luma.gl/shadertools';
+import { lights } from 'kepler-outdated-luma.gl-shadertools';
 
 test('shadertools#lights', t => {
   let uniforms = lights.getUniforms();

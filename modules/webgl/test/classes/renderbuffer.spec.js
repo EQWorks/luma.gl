@@ -1,8 +1,8 @@
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
-import {Renderbuffer, getKey} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { Renderbuffer, getKey } from 'kepler-outdated-luma.gl-webgl';
 
-import RENDERBUFFER_FORMATS from '@luma.gl/webgl/classes/renderbuffer-formats';
+import RENDERBUFFER_FORMATS from 'kepler-outdated-luma.gl-webgl/classes/renderbuffer-formats';
 
 import {fixture} from 'test/setup';
 

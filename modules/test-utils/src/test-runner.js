@@ -1,7 +1,7 @@
 /* global window, console */
 /* eslint-disable no-console */
-import {AnimationLoop} from '@luma.gl/core';
-import {pushContextState, popContextState} from '@luma.gl/webgl-state-tracker';
+import { AnimationLoop } from 'kepler-outdated-luma.gl-core';
+import { pushContextState, popContextState } from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 function noop() {}
 

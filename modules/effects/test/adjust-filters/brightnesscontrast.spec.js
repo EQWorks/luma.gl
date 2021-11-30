@@ -1,5 +1,5 @@
-import {brightnessContrast} from '@luma.gl/effects';
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { brightnessContrast } from 'kepler-outdated-luma.gl-effects';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 test('brightnessContrast#build/uniform', t => {

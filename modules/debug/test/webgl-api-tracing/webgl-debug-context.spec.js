@@ -1,7 +1,7 @@
 import test from 'tape-catch';
 
-import {createGLContext} from '@luma.gl/webgl';
-import {makeDebugContext} from '@luma.gl/debug';
+import { createGLContext } from 'kepler-outdated-luma.gl-webgl';
+import { makeDebugContext } from 'kepler-outdated-luma.gl-debug';
 
 function triggerGLError(gl) {
   const buffer = gl.createBuffer();

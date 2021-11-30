@@ -6,7 +6,7 @@ import Pass from './pass';
 import CompositePass from './composite-pass';
 import ClipSpace from '../lib/clip-space';
 
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 
 class ShaderModuleSinglePass extends Pass {
   constructor(gl, props = {}) {

@@ -1,4 +1,4 @@
-import {Texture2D, log} from '@luma.gl/core';
+import { Texture2D, log } from 'kepler-outdated-luma.gl-core';
 
 export default class GLTFMaterialParser {
   constructor(

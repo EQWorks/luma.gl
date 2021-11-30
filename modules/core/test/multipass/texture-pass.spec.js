@@ -1,5 +1,5 @@
-// import {Model} from '@luma.gl/core';
-import {default as TexturePass} from '@luma.gl/core/multipass/texture-pass';
+// import {Model} from 'kepler-outdated-luma.gl-core';
+import { default as TexturePass } from 'kepler-outdated-luma.gl-core/multipass/texture-pass';
 import test from 'tape-catch';
 import {fixture, getResourceCounts, getLeakedResources} from 'test/setup';
 

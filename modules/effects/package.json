@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/effects",
+  "name": "kepler-outdated-luma.gl-effects",
   "description": "Rendering and post-processing effects library for luma.gl",
   "version": "7.3.2",
   "license": "MIT",
@@ -24,9 +24,9 @@
     "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
   },
   "dependencies": {
-    "@luma.gl/constants": "7.3.2"
+    "kepler-outdated-luma.gl-constants": "7.3.2"
   },
   "peerDependencies": {
-    "@luma.gl/core": "^7.1.0"
+    "kepler-outdated-luma.gl-core": "^7.1.0"
   }
 }

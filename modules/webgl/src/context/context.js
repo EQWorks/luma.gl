@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 // WebGLRenderingContext related methods
-import {trackContextState} from '@luma.gl/webgl-state-tracker';
+import { trackContextState } from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 import {createHeadlessContext} from './create-headless-context';
 import {getCanvas} from './create-canvas';
@@ -126,7 +126,7 @@ export function instrumentGLContext(gl, options = {}) {
   // Add debug instrumentation to the context
   if (isBrowser && debug) {
     if (!global.makeDebugContext) {
-      log.warn('WebGL debug mode not activated. import "@luma.gl/debug" to enable.')();
+      log.warn('WebGL debug mode not activated. import "kepler-outdated-luma.gl-debug" to enable.')();
     } else {
       gl = global.makeDebugContext(gl, options);
       // Debug forces log level to at least 1

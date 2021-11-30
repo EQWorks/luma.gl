@@ -1,6 +1,6 @@
 // NOTE: `headless.js` must **NOT** be included in this file
-import {createGLContext, Program} from '@luma.gl/webgl';
-import {webGLTypesAvailable} from '@luma.gl/webgl/webgl-utils';
+import { createGLContext, Program } from 'kepler-outdated-luma.gl-webgl';
+import { webGLTypesAvailable } from 'kepler-outdated-luma.gl-webgl/webgl-utils';
 
 import test from 'tape-catch';
 

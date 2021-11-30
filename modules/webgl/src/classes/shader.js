@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {parseGLSLCompilerError, getShaderName} from '../glsl-utils';
 import {assertWebGLContext} from '../webgl-utils';
 import {uid, log, assert} from '../utils';

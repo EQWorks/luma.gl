@@ -7,7 +7,7 @@ export {
   setParameters,
   withParameters,
   getModifiedParameters
-} from '@luma.gl/webgl-state-tracker';
+} from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 export {
   createGLContext,

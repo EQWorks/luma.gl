@@ -1,4 +1,4 @@
-import {_CompositePass as CompositePass, _Pass as Pass} from '@luma.gl/core';
+import { _CompositePass as CompositePass, _Pass as Pass } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

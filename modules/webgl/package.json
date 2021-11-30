@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/webgl",
+  "name": "kepler-outdated-luma.gl-webgl",
   "version": "7.3.2",
   "description": "WebGL2 Classes",
   "license": "MIT",
@@ -35,9 +35,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@luma.gl/constants": "7.3.2",
-    "@luma.gl/webgl-state-tracker": "7.3.2",
-    "@luma.gl/webgl2-polyfill": "7.3.2",
+    "kepler-outdated-luma.gl-constants": "7.3.2",
+    "kepler-outdated-luma.gl-webgl-state-tracker": "7.3.2",
+    "kepler-outdated-luma.gl-webgl2-polyfill": "7.3.2",
     "probe.gl": "^3.1.1"
   }
 }

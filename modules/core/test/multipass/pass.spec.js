@@ -1,4 +1,4 @@
-import {_Pass as Pass, Framebuffer} from '@luma.gl/core';
+import { _Pass as Pass, Framebuffer } from 'kepler-outdated-luma.gl-core';
 import {makeSpy} from '@probe.gl/test-utils';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';

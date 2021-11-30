@@ -16,7 +16,7 @@ export {
   setParameters,
   withParameters,
   getModifiedParameters
-} from '@luma.gl/webgl-state-tracker';
+} from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 // Exports WebGL API constants and types, plus some basic type checks
 export {

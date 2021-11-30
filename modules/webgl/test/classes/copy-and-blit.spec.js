@@ -1,9 +1,9 @@
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
-import {Framebuffer, Renderbuffer, Texture2D, Buffer, getKey} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { Framebuffer, Renderbuffer, Texture2D, Buffer, getKey } from 'kepler-outdated-luma.gl-webgl';
 import {fixture} from 'test/setup';
-import {TEXTURE_FORMATS} from '@luma.gl/webgl/classes/texture-formats';
-import {readPixelsToArray, readPixelsToBuffer, copyToTexture, blit} from '@luma.gl/webgl';
+import { TEXTURE_FORMATS } from 'kepler-outdated-luma.gl-webgl/classes/texture-formats';
+import { readPixelsToArray, readPixelsToBuffer, copyToTexture, blit } from 'kepler-outdated-luma.gl-webgl';
 
 const EPSILON = 1e-6;
 const {abs} = Math;

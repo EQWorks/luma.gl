@@ -1,4 +1,4 @@
-# @luma.gl/webgl2-polyfill
+# kepler-outdated-luma.gl-webgl2-polyfill
 
 This module installs a partial set of polyfills for WebGL1 contexts, making them more API compatible with WebGL2.
 
@@ -11,11 +11,11 @@ This way applications can use the WebGL2 API even when using WebGL1 with extensi
 ## Usage
 
 ```
-yarn add @luma.gl/webgl2-polyfill
+yarn add kepler-outdated-luma.gl-webgl2-polyfill
 ```
 
 ```
-import polyfillContext from '@luma.gl/webgl2-polyfill';
+import polyfillContext from 'kepler-outdated-luma.gl-webgl2-polyfill';
 
 const gl = canvas.getContext('webgl');
 polyfillContext(gl);

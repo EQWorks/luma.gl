@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {assert} from '../utils';
 
 // Returns number of components in a specific readPixels WebGL format

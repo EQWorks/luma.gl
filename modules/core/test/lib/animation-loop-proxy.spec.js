@@ -1,4 +1,4 @@
-import {AnimationLoop, _AnimationLoopProxy as AnimationLoopProxy} from '@luma.gl/core';
+import { AnimationLoop, _AnimationLoopProxy as AnimationLoopProxy } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

@@ -20,7 +20,7 @@
 
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
-import {glGetDebugInfo} from '@luma.gl/core';
+import { glGetDebugInfo } from 'kepler-outdated-luma.gl-core';
 import {runTests} from './fp64-test-utils-transform';
 const gl = fixture.gl2;
 

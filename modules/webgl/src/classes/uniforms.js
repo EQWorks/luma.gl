@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import Framebuffer from './framebuffer';
 import Renderbuffer from './renderbuffer';
 import Texture from './texture';

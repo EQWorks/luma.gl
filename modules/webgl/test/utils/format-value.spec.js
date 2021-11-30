@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import test from 'tape-catch';
-import {formatValue} from '@luma.gl/webgl/utils/format-value';
+import { formatValue } from 'kepler-outdated-luma.gl-webgl/utils/format-value';
 
 const FORMAT_VALUE_TEST_CASES = [
   {

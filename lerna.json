@@ -12,7 +12,7 @@
       "ignoreChanges": [
         "test",
         "*.md",
-        "@luma.gl/scripts"
+        "kepler-outdated-luma.gl-scripts"
       ]
     },
     "bootstrap": {}

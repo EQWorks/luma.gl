@@ -1,4 +1,4 @@
-# @luma.gl/webgl
+# kepler-outdated-luma.gl-webgl
 
 This module contains a set of JavaScript class wrappers for the WebGL2 API.
 

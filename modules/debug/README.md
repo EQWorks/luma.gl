@@ -1,4 +1,4 @@
-# @luma.gl/debug
+# kepler-outdated-luma.gl-debug
 
 This is the debugging helper module for luma.gl.
 

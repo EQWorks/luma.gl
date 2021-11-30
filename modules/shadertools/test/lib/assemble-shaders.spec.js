@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import {createGLContext} from '@luma.gl/core';
+import { createGLContext } from 'kepler-outdated-luma.gl-core';
 import {
   assembleShaders,
   createShaderHook,
@@ -7,7 +7,7 @@ import {
   resetGlobalShaderHooks,
   picking,
   fp64
-} from '@luma.gl/shadertools';
+} from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 const fixture = {

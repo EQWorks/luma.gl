@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {
   cloneTextureFrom,
   readPixelsToArray,
@@ -6,13 +6,13 @@ import {
   Buffer,
   Texture2D,
   Framebuffer
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 import {
   _transform as transformModule,
   getPassthroughFS,
   typeToChannelCount,
   combineInjects
-} from '@luma.gl/shadertools';
+} from 'kepler-outdated-luma.gl-shadertools';
 import {updateForTextures, getSizeUniforms} from './transform-shader-utils';
 
 // TODO: move these constants to transform-shader-utils

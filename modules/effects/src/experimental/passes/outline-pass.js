@@ -2,8 +2,8 @@
  * A traditional stencil buffer based outline pass.
  */
 
-import GL from '@luma.gl/constants';
-import {_Pass as Pass, withParameters, setParameters} from '@luma.gl/core';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { _Pass as Pass, withParameters, setParameters } from 'kepler-outdated-luma.gl-core';
 
 export default class OutlinePass extends Pass {
   constructor(gl, props = {}) {

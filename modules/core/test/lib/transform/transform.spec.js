@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {Buffer, Transform} from '@luma.gl/core';
+import { Buffer, Transform } from 'kepler-outdated-luma.gl-core';
 import {fixture} from 'test/setup';
 
 const VS = `\

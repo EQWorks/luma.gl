@@ -1,5 +1,5 @@
 import {assert} from '../../utils';
-import {combineInjects, getQualifierDetails, typeToChannelSuffix} from '@luma.gl/shadertools';
+import { combineInjects, getQualifierDetails, typeToChannelSuffix } from 'kepler-outdated-luma.gl-shadertools';
 
 const SAMPLER_UNIFORM_PREFIX = 'transform_uSampler_';
 const SIZE_UNIFORM_PREFIX = 'transform_uSize_';

@@ -7,7 +7,7 @@ import {
   PlaneGeometry,
   SphereGeometry,
   TruncatedConeGeometry
-} from '@luma.gl/core';
+} from 'kepler-outdated-luma.gl-core';
 
 const GEOMETRY_TESTS = [
   {name: 'ConeGeometry', Geometry: ConeGeometry},

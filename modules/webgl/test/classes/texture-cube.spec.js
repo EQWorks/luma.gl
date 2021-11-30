@@ -1,6 +1,6 @@
 import test from 'tape-catch';
-import {TextureCube} from '@luma.gl/webgl';
-import GL from '@luma.gl/constants';
+import { TextureCube } from 'kepler-outdated-luma.gl-webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 import {fixture} from 'test/setup';
 

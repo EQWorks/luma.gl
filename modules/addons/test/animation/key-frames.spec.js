@@ -1,4 +1,4 @@
-import {KeyFrames} from '@luma.gl/addons';
+import { KeyFrames } from 'kepler-outdated-luma.gl-addons';
 import test from 'tape-catch';
 
 test('Animation#KeyFrames', t => {
