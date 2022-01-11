@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {Program} from '@luma.gl/webgl';
+import { Program } from 'kepler-outdated-luma.gl-webgl';
 import {fixture} from 'test/setup';
 
 const vs = `

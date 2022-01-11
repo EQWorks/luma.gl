@@ -1,5 +1,5 @@
-import {hexagonalPixelate} from '@luma.gl/effects';
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { hexagonalPixelate } from 'kepler-outdated-luma.gl-effects';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 test('hexagonalPixelate#build/uniform', t => {

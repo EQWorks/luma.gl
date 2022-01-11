@@ -1,9 +1,9 @@
-import GL from '@luma.gl/constants';
-import {getPassthroughFS} from '@luma.gl/shadertools';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { getPassthroughFS } from 'kepler-outdated-luma.gl-shadertools';
 import BufferTransform from './buffer-transform';
 import TextureTransform from './texture-transform';
 
-import {isWebGL2, getShaderVersion} from '@luma.gl/webgl';
+import { isWebGL2, getShaderVersion } from 'kepler-outdated-luma.gl-webgl';
 import {assert, isObjectEmpty} from '../../utils';
 import Model from '../model';
 

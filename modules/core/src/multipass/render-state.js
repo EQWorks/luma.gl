@@ -4,7 +4,7 @@
 // Attribution: This class and the multipass system were inspired by
 // the THREE.js EffectComposer and *Pass classes
 
-import {Framebuffer} from '@luma.gl/webgl';
+import { Framebuffer } from 'kepler-outdated-luma.gl-webgl';
 
 export default class RenderState {
   constructor(gl, props = {}) {

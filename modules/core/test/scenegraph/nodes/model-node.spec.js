@@ -21,7 +21,7 @@
 import test from 'tape-catch';
 import {makeSpy} from '@probe.gl/test-utils';
 import {fixture} from 'test/setup';
-import {ModelNode, Model} from '@luma.gl/core';
+import { ModelNode, Model } from 'kepler-outdated-luma.gl-core';
 // import {Matrix4, Vector3} from 'math.gl';
 
 test('ModelNode#constructor', t => {

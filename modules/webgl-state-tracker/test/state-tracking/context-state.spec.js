@@ -1,16 +1,16 @@
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {
   getParameter,
   getParameters,
   setParameters,
   resetParameters,
   withParameters
-} from '@luma.gl/webgl-state-tracker';
+} from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
-import {Framebuffer, getKey} from '@luma.gl/core';
+import { Framebuffer, getKey } from 'kepler-outdated-luma.gl-core';
 
-import {GL_PARAMETER_DEFAULTS as GL_PARAMETERS} from '@luma.gl/webgl-state-tracker/unified-parameter-api/webgl-parameter-tables';
+import { GL_PARAMETER_DEFAULTS as GL_PARAMETERS } from 'kepler-outdated-luma.gl-webgl-state-tracker/unified-parameter-api/webgl-parameter-tables';
 
 import {ENUM_STYLE_SETTINGS_SET1} from '../data/sample-enum-settings';
 import {FUNCTION_STYLE_SETTINGS_SET1} from '../data/sample-function-settings';

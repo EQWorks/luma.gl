@@ -1,5 +1,5 @@
-import GL from '@luma.gl/constants';
-import {Buffer} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { Buffer } from 'kepler-outdated-luma.gl-webgl';
 import {assert} from '../utils';
 
 // Support for mapping new geometries with glTF attribute names to "classic" luma.gl shader names

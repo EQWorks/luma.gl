@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/shadertools",
+  "name": "kepler-outdated-luma.gl-shadertools",
   "version": "7.3.2",
   "description": "Shader module system for luma.gl",
   "license": "MIT",

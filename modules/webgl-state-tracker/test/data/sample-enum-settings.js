@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 // eslint-disable-next-line
 // NOTE: These settings should be in sync with FUNCTION_STYLE_SETTINGS_SET1

@@ -4,7 +4,7 @@ import {
   TEST_EXPORTS,
   setDefaultShaderModules,
   getDefaultShaderModules
-} from '@luma.gl/shadertools/lib/resolve-modules';
+} from 'kepler-outdated-luma.gl-shadertools/lib/resolve-modules';
 
 const {getDependencyGraph} = TEST_EXPORTS;
 

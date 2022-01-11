@@ -1,7 +1,7 @@
 import '@loaders.gl/polyfills';
 import {load} from '@loaders.gl/core';
-import {Texture2D, TextureCube} from '@luma.gl/core';
-import {GLTFScenegraphLoader, createGLTFObjects, GLTFEnvironment} from '@luma.gl/addons';
+import { Texture2D, TextureCube } from 'kepler-outdated-luma.gl-core';
+import { GLTFScenegraphLoader, createGLTFObjects, GLTFEnvironment } from 'kepler-outdated-luma.gl-addons';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

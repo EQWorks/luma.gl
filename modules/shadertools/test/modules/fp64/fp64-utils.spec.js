@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {fp64} from '@luma.gl/shadertools';
+import { fp64 } from 'kepler-outdated-luma.gl-shadertools';
 import {_Pose as Pose} from 'math.gl';
 
 test('fp64#fp64LowPart', t => {

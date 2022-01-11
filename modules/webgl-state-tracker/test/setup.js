@@ -1,7 +1,7 @@
 // TEST SETUP
 
-import {setGLContextDefaults, createGLContext} from '@luma.gl/core';
-import {makeDebugContext} from '@luma.gl/debug';
+import { setGLContextDefaults, createGLContext } from 'kepler-outdated-luma.gl-core';
+import { makeDebugContext } from 'kepler-outdated-luma.gl-debug';
 
 // Avoid generating a lot of big context divs
 setGLContextDefaults({

@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import test from 'tape-catch';
-import {CameraNode} from '@luma.gl/core';
+import { CameraNode } from 'kepler-outdated-luma.gl-core';
 import {Matrix4} from 'math.gl';
 
 test('CameraNode#constructor', t => {

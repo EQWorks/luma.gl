@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import Texture from './texture';
 import {assertWebGLContext} from '../webgl-utils';
 import {log} from '../utils';

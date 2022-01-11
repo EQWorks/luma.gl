@@ -1,5 +1,5 @@
 // Depends on Khronos Debug support module being imported via "luma.gl/debug"
-import {log} from '@luma.gl/core';
+import { log } from 'kepler-outdated-luma.gl-core';
 
 // Expose Khronos Debug support module on global context
 const WebGLDebug = require('webgl-debug');

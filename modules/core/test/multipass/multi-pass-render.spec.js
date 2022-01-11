@@ -1,4 +1,4 @@
-import {_MultiPassRenderer as MultiPassRenderer, _Pass as Pass} from '@luma.gl/core';
+import { _MultiPassRenderer as MultiPassRenderer, _Pass as Pass } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture, getResourceCounts, getLeakedResources} from 'test/setup';
 

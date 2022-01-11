@@ -1,4 +1,4 @@
-import {isOldIE} from '@luma.gl/webgl/utils';
+import { isOldIE } from 'kepler-outdated-luma.gl-webgl/utils';
 import test from 'tape-catch';
 
 test('isOldIE', t => {

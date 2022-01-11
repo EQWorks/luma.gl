@@ -1,5 +1,5 @@
 /* global window, navigator */
-import {log} from '@luma.gl/core';
+import { log } from 'kepler-outdated-luma.gl-core';
 import Display from './display';
 import {createEnterVRButton} from './vr-button';
 

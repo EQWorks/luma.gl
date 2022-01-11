@@ -1,5 +1,5 @@
-import {assembleShaders} from '@luma.gl/shadertools';
-import {Program} from '@luma.gl/webgl';
+import { assembleShaders } from 'kepler-outdated-luma.gl-shadertools';
+import { Program } from 'kepler-outdated-luma.gl-webgl';
 
 export default class ProgramManager {
   static getDefaultProgramManager(gl) {

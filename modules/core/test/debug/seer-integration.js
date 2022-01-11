@@ -1,7 +1,7 @@
 import test from 'tape-catch';
 
-import {window} from '@luma.gl/core';
-import {setOverride, getOverrides} from '@luma.gl/core/debug/seer-integration';
+import { window } from 'kepler-outdated-luma.gl-core';
+import { setOverride, getOverrides } from 'kepler-outdated-luma.gl-core/debug/seer-integration';
 
 test('Seer overrides', t => {
   const uniforms = {

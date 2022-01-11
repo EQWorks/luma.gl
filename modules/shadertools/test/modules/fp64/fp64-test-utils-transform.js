@@ -22,8 +22,8 @@
 
 /* eslint-disable camelcase, prefer-template, max-len */
 
-import {Buffer, Transform} from '@luma.gl/core';
-import {fp64} from '@luma.gl/shadertools';
+import { Buffer, Transform } from 'kepler-outdated-luma.gl-core';
+import { fp64 } from 'kepler-outdated-luma.gl-shadertools';
 import {equals, config} from 'math.gl';
 const {fp64ify} = fp64;
 

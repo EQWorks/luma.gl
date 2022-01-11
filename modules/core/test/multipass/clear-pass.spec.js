@@ -1,5 +1,5 @@
-// import {Model} from '@luma.gl/core';
-import {_ClearPass as ClearPass} from '@luma.gl/core';
+// import {Model} from 'kepler-outdated-luma.gl-core';
+import { _ClearPass as ClearPass } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 

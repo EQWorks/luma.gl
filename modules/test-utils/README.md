@@ -1,4 +1,4 @@
-# @luma.gl/test-utils
+# kepler-outdated-luma.gl-test-utils
 
 Client-side utility for browser-based WebGL render tests.
 

@@ -1,4 +1,4 @@
-import {uid, isPowerOfTwo} from '@luma.gl/webgl/utils';
+import { uid, isPowerOfTwo } from 'kepler-outdated-luma.gl-webgl/utils';
 import test from 'tape-catch';
 
 test('Utils#uid', t => {

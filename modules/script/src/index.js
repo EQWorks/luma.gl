@@ -6,17 +6,17 @@
 /* global window, global */
 const _global = typeof window === 'undefined' ? global : window;
 
-const lumaGL = require('@luma.gl/core');
-require('@luma.gl/debug');
+const lumaGL = require('kepler-outdated-luma.gl-core');
+require('kepler-outdated-luma.gl-debug');
 
-const filters = require('@luma.gl/glfx');
+const filters = require('kepler-outdated-luma.gl-glfx');
 
-const shadertools = require('@luma.gl/shadertools');
+const shadertools = require('kepler-outdated-luma.gl-shadertools');
 
 const mathGL = require('math.gl');
 
-_global.luma = Object.assign({}, _global.luma, lumaGL, {filters}, shadertools);
+_global.keplerLuma = Object.assign({}, _global.keplerLuma, lumaGL, { filters }, shadertools);
 
 _global.mathgl = mathGL;
 
-module.exports = _global.luma;
+module.exports = _global.keplerLuma;

@@ -1,5 +1,5 @@
-import {getParameterPolyfill} from '@luma.gl/webgl2-polyfill/polyfills/get-parameter-polyfill';
-import GL from '@luma.gl/constants';
+import { getParameterPolyfill } from 'kepler-outdated-luma.gl-webgl2-polyfill/polyfills/get-parameter-polyfill';
+import GL from 'kepler-outdated-luma.gl-constants';
 import test from 'tape-catch';
 
 import {fixture} from 'test/setup';

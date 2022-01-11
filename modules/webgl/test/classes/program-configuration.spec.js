@@ -1,7 +1,7 @@
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
-import {Program} from '@luma.gl/webgl';
-import ProgramConfiguration from '@luma.gl/webgl/classes/program-configuration';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { Program } from 'kepler-outdated-luma.gl-webgl';
+import ProgramConfiguration from 'kepler-outdated-luma.gl-webgl/classes/program-configuration';
 import {fixture} from 'test/setup';
 
 const vs = `

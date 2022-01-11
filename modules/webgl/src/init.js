@@ -5,7 +5,7 @@ import {Stats} from 'probe.gl';
 
 // TODO - when webgl2 gets ubiquitous, remove default support for webgl1 by dropping next line
 // Can be installed by applications
-import '@luma.gl/webgl2-polyfill';
+import 'kepler-outdated-luma.gl-webgl2-polyfill';
 
 // Version detection using babel plugin
 /* global __VERSION__ */
@@ -32,16 +32,16 @@ class StatsManager {
 
 const lumaStats = new StatsManager();
 
-if (global.luma && global.luma.VERSION !== VERSION) {
-  throw new Error(`luma.gl - multiple VERSIONs detected: ${global.luma.VERSION} vs ${VERSION}`);
+if (global.keplerLuma && global.keplerLuma.VERSION !== VERSION) {
+  throw new Error(`luma.gl - multiple VERSIONs detected: ${global.keplerLuma.VERSION} vs ${VERSION}`);
 }
 
-if (!global.luma) {
+if (!global.keplerLuma) {
   if (isBrowser) {
     log.log(1, `luma.gl ${VERSION} - ${STARTUP_MESSAGE}`)();
   }
 
-  global.luma = global.luma || {
+  global.keplerLuma = global.keplerLuma || {
     VERSION,
     version: VERSION,
     log,
@@ -64,4 +64,4 @@ if (!global.luma) {
 
 export {global};
 export {lumaStats};
-export default global.luma;
+export default global.keplerLuma;

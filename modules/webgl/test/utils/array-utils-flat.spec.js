@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import test from 'tape-catch';
-import {fillArray} from '@luma.gl/webgl/utils/array-utils-flat';
+import { fillArray } from 'kepler-outdated-luma.gl-webgl/utils/array-utils-flat';
 
 const FILL_ARRAY_TEST_CASES = [
   {

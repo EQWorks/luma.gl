@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import ShaderModule, {normalizeShaderModule} from '@luma.gl/shadertools/lib/shader-module';
+import ShaderModule, { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools/lib/shader-module';
 
 test('ShaderModule', t => {
   let shaderModule = new ShaderModule({name: 'empty-shader-module'});

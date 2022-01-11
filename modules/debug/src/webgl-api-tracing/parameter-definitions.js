@@ -3,7 +3,7 @@
 // with resource.getParameters(). This is mainly useful during debugging.
 // Note: Kept separate to avoid bundling in production applications
 
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 // WebGL specification 'types'
 export const GLenum = 'GLenum';

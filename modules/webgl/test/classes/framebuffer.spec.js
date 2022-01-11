@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
-import {Framebuffer, Renderbuffer, Texture2D} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { Framebuffer, Renderbuffer, Texture2D } from 'kepler-outdated-luma.gl-webgl';
 import {fixture} from 'test/setup';
 
 const TEST_CASES = [
@@ -186,7 +186,7 @@ test('WebGL1#Framebuffer resize', t => {
 });
 /*
 
-import {TEXTURE_FORMATS} from '@luma.gl/webgl/texture-formats';
+import {TEXTURE_FORMATS} from 'kepler-outdated-luma.gl-webgl/texture-formats';
 
 const RGB_TO = {
   [GL.UNSIGNED_BYTE]: (r, g, b) => [r * 256, g * 256, b * 256],

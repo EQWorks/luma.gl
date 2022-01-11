@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {Geometry} from '@luma.gl/core';
+import { Geometry } from 'kepler-outdated-luma.gl-core';
 
 const TEST_CASES = [
   {

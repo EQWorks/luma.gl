@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import getShaderVersion from '@luma.gl/webgl/glsl-utils/get-shader-version';
+import getShaderVersion from 'kepler-outdated-luma.gl-webgl/glsl-utils/get-shader-version';
 
 const SHADER1 = 'void main() {}';
 const SHADER2 = '#version 100 void main() {}';

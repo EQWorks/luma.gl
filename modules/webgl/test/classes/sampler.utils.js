@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
-import GL from '@luma.gl/constants';
-import {getKey} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { getKey } from 'kepler-outdated-luma.gl-webgl';
 
 // Sampler Parameters
 

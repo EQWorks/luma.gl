@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {deepArrayEqual} from '@luma.gl/webgl-state-tracker/utils';
+import { deepArrayEqual } from 'kepler-outdated-luma.gl-webgl-state-tracker/utils';
 
 test('WebGLState#deepArrayEqual', t => {
   const ARRAY = [0, 1, 2];

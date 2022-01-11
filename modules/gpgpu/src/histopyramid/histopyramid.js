@@ -1,5 +1,5 @@
-import {Transform, Buffer, copyToTexture, cloneTextureFrom} from '@luma.gl/core';
-import GL from '@luma.gl/constants';
+import { Transform, Buffer, copyToTexture, cloneTextureFrom } from 'kepler-outdated-luma.gl-core';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {
   HISTOPYRAMID_BUILD_VS_UTILS,
   HISTOPYRAMID_TRAVERSAL_UTILS,

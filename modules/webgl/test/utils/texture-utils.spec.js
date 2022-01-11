@@ -1,8 +1,8 @@
 import test from 'tape-catch';
-import {cloneTextureFrom} from '@luma.gl/webgl/webgl-utils/texture-utils';
-import {Texture2D} from '@luma.gl/webgl';
+import { cloneTextureFrom } from 'kepler-outdated-luma.gl-webgl/webgl-utils/texture-utils';
+import { Texture2D } from 'kepler-outdated-luma.gl-webgl';
 import {fixture} from 'test/setup';
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 test('texture-utils#cloneTextureFrom', t => {
   const {gl} = fixture;

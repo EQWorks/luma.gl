@@ -2,7 +2,7 @@
 // Attempts to return sane values for extension constants
 // TODO - Move WebGL2 polyfills into webgl2-polyfill module
 /* eslint-disable camelcase */
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {isWebGL2} from '../webgl-utils';
 
 const WEBGL_debug_renderer_info = 'WEBGL_debug_renderer_info';

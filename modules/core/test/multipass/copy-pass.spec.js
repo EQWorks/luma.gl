@@ -1,4 +1,4 @@
-import {_CopyPass as CopyPass, Framebuffer} from '@luma.gl/core';
+import { _CopyPass as CopyPass, Framebuffer } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture, getResourceCounts, getLeakedResources} from 'test/setup';
 

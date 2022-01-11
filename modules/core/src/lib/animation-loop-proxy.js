@@ -1,6 +1,6 @@
 /* global window, Worker */
-import {getPageLoadPromise, getCanvas} from '@luma.gl/webgl';
-import {requestAnimationFrame, cancelAnimationFrame} from '@luma.gl/webgl';
+import { getPageLoadPromise, getCanvas } from 'kepler-outdated-luma.gl-webgl';
+import { requestAnimationFrame, cancelAnimationFrame } from 'kepler-outdated-luma.gl-webgl';
 import {log, assert} from '../utils';
 
 function initializeCanvas(_self, canvas) {

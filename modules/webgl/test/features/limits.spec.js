@@ -1,5 +1,5 @@
-import {getKey, getContextInfo} from '@luma.gl/webgl';
-import WEBGL_LIMITS from '@luma.gl/webgl/features/webgl-limits-table';
+import { getKey, getContextInfo } from 'kepler-outdated-luma.gl-webgl';
+import WEBGL_LIMITS from 'kepler-outdated-luma.gl-webgl/features/webgl-limits-table';
 import test from 'tape-catch';
 
 import {fixture} from 'test/setup';

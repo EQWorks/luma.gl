@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 export default {
   [GL.ALIASED_LINE_WIDTH_RANGE]: {gl1: new Float32Array([1, 1])},

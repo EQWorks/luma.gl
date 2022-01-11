@@ -1,6 +1,6 @@
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
-import {VertexArray, VertexArrayObject, Buffer, Program} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { VertexArray, VertexArrayObject, Buffer, Program } from 'kepler-outdated-luma.gl-webgl';
 
 import {fixture} from 'test/setup';
 

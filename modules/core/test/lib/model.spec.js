@@ -1,12 +1,12 @@
-import GL from '@luma.gl/constants';
-import luma from '@luma.gl/webgl/init';
+import GL from 'kepler-outdated-luma.gl-constants';
+import luma from 'kepler-outdated-luma.gl-webgl/init';
 // TODO - Model test should not depend on Cube
-import {Buffer, Model, CubeGeometry, ProgramManager} from '@luma.gl/core';
-import {picking} from '@luma.gl/shadertools';
+import { Buffer, Model, CubeGeometry, ProgramManager } from 'kepler-outdated-luma.gl-core';
+import { picking } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 
-import {getBuffersFromGeometry} from '@luma.gl/core/lib/model-utils';
+import { getBuffersFromGeometry } from 'kepler-outdated-luma.gl-core/lib/model-utils';
 
 const stats = luma.stats.get('Resource Counts');
 

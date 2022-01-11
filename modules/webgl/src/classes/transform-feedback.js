@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import Resource from './resource';
 import Buffer from './buffer';
 import {isWebGL2, assertWebGL2Context} from '../webgl-utils';

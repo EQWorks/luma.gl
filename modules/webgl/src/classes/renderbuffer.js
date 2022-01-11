@@ -1,5 +1,5 @@
 /* eslint-disable no-inline-comments */
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import Resource from './resource';
 import RENDERBUFFER_FORMATS from './renderbuffer-formats';
 import {isWebGL2} from '../webgl-utils';

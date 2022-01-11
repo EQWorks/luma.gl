@@ -1,4 +1,4 @@
-import {isWebGL2, Buffer, TransformFeedback} from '@luma.gl/webgl';
+import { isWebGL2, Buffer, TransformFeedback } from 'kepler-outdated-luma.gl-webgl';
 import {assert} from '../../utils';
 
 export default class BufferTransform {

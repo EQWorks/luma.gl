@@ -1,13 +1,13 @@
 /* eslint-disable no-inline-comments */
 import test from 'tape-catch';
-import {Program, Texture2D} from '@luma.gl/webgl';
-import {isBrowser} from '@luma.gl/webgl/utils';
+import { Program, Texture2D } from 'kepler-outdated-luma.gl-webgl';
+import { isBrowser } from 'kepler-outdated-luma.gl-webgl/utils';
 import {equals} from 'math.gl';
 import {
   checkUniformValues,
   areUniformsEqual,
   parseUniformName
-} from '@luma.gl/webgl/classes/uniforms';
+} from 'kepler-outdated-luma.gl-webgl/classes/uniforms';
 
 import {fixture} from 'test/setup';
 

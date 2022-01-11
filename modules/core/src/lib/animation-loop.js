@@ -12,7 +12,7 @@ import {
   lumaStats,
   // TODO - remove dependency on framebuffer (bundle size impact)
   Framebuffer
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 
 import {log, assert} from '../utils';
 

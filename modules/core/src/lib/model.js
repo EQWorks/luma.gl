@@ -1,5 +1,5 @@
-import GL from '@luma.gl/constants';
-import {TransformFeedback, Buffer} from '@luma.gl/webgl';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { TransformFeedback, Buffer } from 'kepler-outdated-luma.gl-webgl';
 import {getBuffersFromGeometry} from './model-utils';
 import BaseModel from './base-model';
 import {log, isObjectEmpty, uid, assert} from '../utils';

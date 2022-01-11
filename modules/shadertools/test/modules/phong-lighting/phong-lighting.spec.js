@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {phonglighting} from '@luma.gl/shadertools';
+import { phonglighting } from 'kepler-outdated-luma.gl-shadertools';
 
 test('shadertools#phonglighting', t => {
   let uniforms = phonglighting.getUniforms();

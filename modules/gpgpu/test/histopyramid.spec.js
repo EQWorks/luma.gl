@@ -18,21 +18,21 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import {Buffer, Transform, Texture2D} from '@luma.gl/core';
-import GL from '@luma.gl/constants';
+import { Buffer, Transform, Texture2D } from 'kepler-outdated-luma.gl-core';
+import GL from 'kepler-outdated-luma.gl-constants';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
 import {equals} from 'math.gl';
-import {_transform as transformModule} from '@luma.gl/shadertools';
+import { _transform as transformModule } from 'kepler-outdated-luma.gl-shadertools';
 import {
   _buildHistopyramidBaseLevel as buildHistopyramidBaseLevel,
   _getHistoPyramid as getHistoPyramid,
   _histoPyramidGenerateIndices as histoPyramidGenerateIndices
-} from '@luma.gl/gpgpu';
+} from 'kepler-outdated-luma.gl-gpgpu';
 import {
   HISTOPYRAMID_BUILD_VS_UTILS,
   HISTOPYRAMID_TRAVERSAL_UTILS
-} from '@luma.gl/gpgpu/histopyramid/histopyramid-shaders';
+} from 'kepler-outdated-luma.gl-gpgpu/histopyramid/histopyramid-shaders';
 
 const gl = fixture.gl2;
 

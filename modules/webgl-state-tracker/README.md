@@ -1,4 +1,4 @@
-# @luma.gl/webgl-state-tracker
+# kepler-outdated-luma.gl-webgl-state-tracker
 
 Provides WebGL context state tracking and a unified API for setting WebGL parameters
 
@@ -12,11 +12,11 @@ This is useful when combining code written in different WebGL frameworks or code
 ## Usage
 
 ```
-yarn add @luma.gl/webgl-state-tracker
+yarn add kepler-outdated-luma.gl-webgl-state-tracker
 ```
 
 ```
-import trackContextState from '@luma.gl/webgl-state-tracker';
+import trackContextState from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 const gl = canvas.getContext('webgl');
 trackContextState(gl);

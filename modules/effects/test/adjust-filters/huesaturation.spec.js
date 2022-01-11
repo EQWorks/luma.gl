@@ -1,5 +1,5 @@
-import {hueSaturation} from '@luma.gl/effects';
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { hueSaturation } from 'kepler-outdated-luma.gl-effects';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 test('hueSaturation#build/uniform', t => {

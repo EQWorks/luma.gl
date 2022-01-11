@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import test from 'tape-catch';
-import {ScenegraphNode} from '@luma.gl/core';
+import { ScenegraphNode } from 'kepler-outdated-luma.gl-core';
 import {Matrix4, Vector3} from 'math.gl';
 
 const PROPS = {

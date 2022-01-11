@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/glfx",
+  "name": "kepler-outdated-luma.gl-glfx",
   "description": "glfx - image processing packaged as composable shader modules",
   "version": "7.3.2",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "build-bundle": "webpack --display=minimal --config ../../scripts/bundle.config.js"
   },
   "peerDependencies": {
-    "@luma.gl/core": "^7.1.0",
-    "@luma.gl/effects": "^7.1.0"
+    "kepler-outdated-luma.gl-core": "7.3.2",
+    "kepler-outdated-luma.gl-effects": "7.3.2"
   }
 }

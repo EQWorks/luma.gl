@@ -1,4 +1,4 @@
-import getShaderName from '@luma.gl/webgl/glsl-utils/get-shader-name';
+import getShaderName from 'kepler-outdated-luma.gl-webgl/glsl-utils/get-shader-name';
 import test from 'tape-catch';
 
 const SHADER_1 = `\

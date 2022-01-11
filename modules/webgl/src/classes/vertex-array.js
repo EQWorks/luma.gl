@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import Accessor from './accessor';
 import Buffer from './buffer';
 import VertexArrayObject from './vertex-array-object';

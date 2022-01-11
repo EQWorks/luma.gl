@@ -1,8 +1,8 @@
-import {Buffer, Transform, Texture2D} from '@luma.gl/core';
+import { Buffer, Transform, Texture2D } from 'kepler-outdated-luma.gl-core';
 import test from 'tape-catch';
 import {fixture} from 'test/setup';
-import GL from '@luma.gl/constants';
-import {setParameters, getParameter} from '@luma.gl/webgl-state-tracker';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { setParameters, getParameter } from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 const VS = `\
 #version 300 es

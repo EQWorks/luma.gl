@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/constants",
+  "name": "kepler-outdated-luma.gl-constants",
   "version": "7.3.2",
   "description": "WebGL and WebGL2 constants",
   "license": "MIT",

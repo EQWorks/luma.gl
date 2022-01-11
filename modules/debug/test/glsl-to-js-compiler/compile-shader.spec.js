@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {compileShaderModule, compileVertexShader, compileFragmentShader} from '@luma.gl/debug';
+import { compileShaderModule, compileVertexShader, compileFragmentShader } from 'kepler-outdated-luma.gl-debug';
 
 test('compileVertexShader', t => {
   const vs = `

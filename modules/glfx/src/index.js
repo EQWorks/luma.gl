@@ -1,1 +1,1 @@
-export * from '@luma.gl/effects';
+export * from 'kepler-outdated-luma.gl-effects';

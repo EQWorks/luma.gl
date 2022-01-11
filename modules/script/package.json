@@ -1,5 +1,5 @@
 {
-  "name": "@luma.gl/scripts",
+  "name": "kepler-outdated-luma.gl-scripts",
   "description": "Scripting with luma.gl",
   "license": "MIT",
   "version": "7.3.2",
@@ -24,11 +24,20 @@
     "build": "npm run build-prod"
   },
   "dependencies": {
-    "@luma.gl/constants": "7.3.2",
-    "@luma.gl/core": "7.3.2",
-    "@luma.gl/debug": "7.3.2",
-    "@luma.gl/glfx": "7.3.2",
-    "@luma.gl/shadertools": "7.3.2",
     "math.gl": "^3.0.0"
+  },
+  "devDependencies": {
+    "kepler-outdated-luma.gl-constants": "file:../constants",
+    "kepler-outdated-luma.gl-core": "file:../core",
+    "kepler-outdated-luma.gl-debug": "file:../debug",
+    "kepler-outdated-luma.gl-glfx": "file:../glfx",
+    "kepler-outdated-luma.gl-shadertools": "file:../shadertools"
+  },
+  "peerDependencies": {
+    "kepler-outdated-luma.gl-constants": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/constants/dist.tgz",
+    "kepler-outdated-luma.gl-core": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/core/dist.tgz",
+    "kepler-outdated-luma.gl-debug": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/debug/dist.tgz",
+    "kepler-outdated-luma.gl-glfx": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/glfx/dist.tgz",
+    "kepler-outdated-luma.gl-shadertools": "https://github.com/EQWorks/luma.gl/raw/build/outdated/modules/shadertools/dist.tgz"
   }
 }

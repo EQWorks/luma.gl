@@ -1,4 +1,4 @@
-# @luma.gl/shadertools
+# kepler-outdated-luma.gl-shadertools
 
 This is the shader module system module for luma.gl.
 

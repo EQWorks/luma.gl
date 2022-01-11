@@ -1,4 +1,4 @@
-import GL from '@luma.gl/constants';
+import GL from 'kepler-outdated-luma.gl-constants';
 import {getTypedArrayFromGLType} from '../webgl-utils';
 import {checkProps, assert} from '../utils';
 

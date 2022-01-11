@@ -1,7 +1,7 @@
 import test from 'tape-catch';
-import GL from '@luma.gl/constants';
-import {Accessor} from '@luma.gl/webgl';
-import {DEFAULT_ACCESSOR_VALUES} from '@luma.gl/webgl/classes/accessor';
+import GL from 'kepler-outdated-luma.gl-constants';
+import { Accessor } from 'kepler-outdated-luma.gl-webgl';
+import { DEFAULT_ACCESSOR_VALUES } from 'kepler-outdated-luma.gl-webgl/classes/accessor';
 
 const TEST_CASES_FOR_CONSTRUCTOR = [
   {

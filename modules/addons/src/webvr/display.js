@@ -1,4 +1,4 @@
-import {withParameters} from '@luma.gl/core';
+import { withParameters } from 'kepler-outdated-luma.gl-core';
 
 export default class Display {
   getViews(options) {

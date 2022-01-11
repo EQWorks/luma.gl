@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {unpackIndexedGeometry} from '@luma.gl/core/geometry/geometry-utils';
+import { unpackIndexedGeometry } from 'kepler-outdated-luma.gl-core/geometry/geometry-utils';
 
 const TEST_ATTRIBUTES = {
   POSITION: {value: new Float32Array([0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0]), size: 3},

@@ -1,5 +1,5 @@
-import {triangleBlur} from '@luma.gl/effects';
-import {normalizeShaderModule} from '@luma.gl/shadertools';
+import { triangleBlur } from 'kepler-outdated-luma.gl-effects';
+import { normalizeShaderModule } from 'kepler-outdated-luma.gl-shadertools';
 import test from 'tape-catch';
 
 test('triangleBlur#build/uniform', t => {

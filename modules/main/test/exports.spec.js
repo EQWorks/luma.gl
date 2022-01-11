@@ -1,8 +1,8 @@
 import test from 'tape-catch';
 
 import * as main from 'luma.gl';
-import * as core from '@luma.gl/core';
-import GL from '@luma.gl/constants';
+import * as core from 'kepler-outdated-luma.gl-core';
+import GL from 'kepler-outdated-luma.gl-constants';
 
 // Check that specific imports still work
 

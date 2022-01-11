@@ -1,2 +1,2 @@
 // Export core modules for luma.gl
-export * from '@luma.gl/core';
+export * from 'kepler-outdated-luma.gl-core';

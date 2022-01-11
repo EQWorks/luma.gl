@@ -1,4 +1,4 @@
-import {VertexShader, FragmentShader, Program, _ShaderCache as ShaderCache} from '@luma.gl/core';
+import { VertexShader, FragmentShader, Program, _ShaderCache as ShaderCache } from 'kepler-outdated-luma.gl-core';
 
 import test from 'tape-catch';
 

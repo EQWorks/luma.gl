@@ -1,6 +1,6 @@
 import test from 'tape-catch';
-import BufferTransform from '@luma.gl/core/lib/transform/buffer-transform';
-import {Buffer, Model, TransformFeedback} from '@luma.gl/core';
+import BufferTransform from 'kepler-outdated-luma.gl-core/lib/transform/buffer-transform';
+import { Buffer, Model, TransformFeedback } from 'kepler-outdated-luma.gl-core';
 import {fixture} from 'test/setup';
 
 const VS = `\

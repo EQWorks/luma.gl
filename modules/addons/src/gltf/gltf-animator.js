@@ -1,4 +1,4 @@
-import {assert, log} from '@luma.gl/core';
+import { assert, log } from 'kepler-outdated-luma.gl-core';
 import {Matrix4, Quaternion} from 'math.gl';
 
 // TODO: import from loaders.gl?

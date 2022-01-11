@@ -1,5 +1,5 @@
 import test from 'tape-catch';
-import {Program, Buffer, VertexArray} from '@luma.gl/webgl';
+import { Program, Buffer, VertexArray } from 'kepler-outdated-luma.gl-webgl';
 
 import {fixture} from 'test/setup';
 

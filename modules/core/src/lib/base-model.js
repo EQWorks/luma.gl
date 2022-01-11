@@ -1,13 +1,13 @@
 /* eslint-disable complexity */
 // Shared code between Model and MeshModel
 import ProgramManager from '../resource-management/program-manager';
-import {isWebGL, Query, Program, VertexArray, clear} from '@luma.gl/webgl';
-import {MODULAR_SHADERS} from '@luma.gl/shadertools';
+import { isWebGL, Query, Program, VertexArray, clear } from 'kepler-outdated-luma.gl-webgl';
+import { MODULAR_SHADERS } from 'kepler-outdated-luma.gl-shadertools';
 import {
   getDebugTableForUniforms,
   getDebugTableForVertexArray,
   getDebugTableForProgramConfiguration
-} from '@luma.gl/webgl';
+} from 'kepler-outdated-luma.gl-webgl';
 import {addModel, removeModel, logModel, getOverrides} from '../debug/seer-integration';
 import {log, isObjectEmpty, uid, assert} from '../utils';
 

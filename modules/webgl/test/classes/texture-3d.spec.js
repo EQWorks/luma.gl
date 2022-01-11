@@ -1,6 +1,6 @@
 import test from 'tape-catch';
-import {Texture3D} from '@luma.gl/webgl';
-// import {Buffer} from '@luma.gl/webgl';
+import { Texture3D } from 'kepler-outdated-luma.gl-webgl';
+// import {Buffer} from 'kepler-outdated-luma.gl-webgl';
 
 import {fixture} from 'test/setup';
 

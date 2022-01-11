@@ -1,4 +1,4 @@
-import {isWebGL2, ModelNode, log, pbr} from '@luma.gl/core';
+import { isWebGL2, ModelNode, log, pbr } from 'kepler-outdated-luma.gl-core';
 import GLTFMaterialParser from './gltf-material-parser';
 
 const vs = `

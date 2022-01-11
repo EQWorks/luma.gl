@@ -8,12 +8,12 @@ import trackContextState, {
   setParameters,
   resetParameters,
   getModifiedParameters
-} from '@luma.gl/webgl-state-tracker';
+} from 'kepler-outdated-luma.gl-webgl-state-tracker';
 
 import {
   GL_PARAMETER_DEFAULTS,
   GL_PARAMETER_SETTERS
-} from '@luma.gl/webgl-state-tracker/unified-parameter-api/webgl-parameter-tables';
+} from 'kepler-outdated-luma.gl-webgl-state-tracker/unified-parameter-api/webgl-parameter-tables';
 
 import {ENUM_STYLE_SETTINGS_SET1, ENUM_STYLE_SETTINGS_SET2} from '../data/sample-enum-settings';
 

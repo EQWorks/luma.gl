@@ -1,10 +1,10 @@
 /* eslint-disable camelcase, no-console, no-undef */
-import {createGLContext} from '@luma.gl/core';
-import {assembleShaders} from '@luma.gl/shadertools';
+import { createGLContext } from 'kepler-outdated-luma.gl-core';
+import { assembleShaders } from 'kepler-outdated-luma.gl-shadertools';
 import injectShader, {
   combineInjects,
   DECLARATION_INJECT_MARKER
-} from '@luma.gl/shadertools/lib/inject-shader';
+} from 'kepler-outdated-luma.gl-shadertools/lib/inject-shader';
 import test from 'tape-catch';
 
 const fixture = {

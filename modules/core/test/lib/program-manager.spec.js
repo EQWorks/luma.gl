@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
-import {ProgramManager} from '@luma.gl/core';
-import {dirlight, picking, registerShaderModules} from '@luma.gl/shadertools';
+import { ProgramManager } from 'kepler-outdated-luma.gl-core';
+import { dirlight, picking, registerShaderModules } from 'kepler-outdated-luma.gl-shadertools';
 import {fixture} from 'test/setup';
 import test from 'tape-catch';
 
